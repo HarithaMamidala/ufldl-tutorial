@@ -1,9 +1,9 @@
 Download and unzip here the [MNIST dataset]. We will need the following files:
 
-* Training set images
-* Training set labels
-* Test set images
-* Test set labels
+* [Training set images]
+* [Training set labels]
+* [Test set images]
+* [Test set labels]
  
 [MNIST dataset]: http://yann.lecun.com/exdb/mnist/
 [Training set images]: http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
