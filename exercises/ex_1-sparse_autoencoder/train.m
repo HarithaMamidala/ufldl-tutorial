@@ -14,10 +14,6 @@
 %  allow your sparse autoencoder to get good filters; you do not need to 
 %  change the parameters below.
 
-addpath ../../utils/
-addpath ../../utils/minFunc
-addpath ../../sparse_autoencoder
-
 visibleSize = 8*8;   % number of input units 
 hiddenSize = 36;     % number of hidden units 
 sparsityParam = 0.01;   % desired average activation of the hidden units.

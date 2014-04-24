@@ -12,9 +12,6 @@
 %% STEP 0: Initialization
 %  Here we initialize some parameters used for the exercise.
 
-addpath ../utils/
-addpath ../utils/minFunc
-
 imageChannels = 3;     % number of channels (rgb, so 3)
 
 patchDim   = 8;          % patch dimension

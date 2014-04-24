@@ -12,12 +12,6 @@
 %  STEP 0: Here we provide the relevant parameters values that will
 %  allow your sparse autoencoder to get good filters; you do not need to 
 %  change the parameters below.
-addpath ../../utils/mnistHelper/
-addpath ../../utils/mnist/
-addpath ../../utils/minFunc/
-addpath ../../utils/
-addpath ../../sparse_autoencoder
-addpath ../../softmax
 
 inputSize  = 28 * 28;
 numLabels  = 5;

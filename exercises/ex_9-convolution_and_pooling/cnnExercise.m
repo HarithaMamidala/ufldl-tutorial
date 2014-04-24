@@ -11,11 +11,6 @@
 %%======================================================================
 %% STEP 0: Initialization
 %  Here we initialize some parameters used for the exercise.
-addpath ../../utils/minFunc/
-addpath ../../utils/
-addpath ../../linear_decoder
-addpath ../../softmax
-addpath ../../convolutional_neural_network
 
 imageDim = 64;         % image dimension
 imageChannels = 3;     % number of channels (rgb, so 3)

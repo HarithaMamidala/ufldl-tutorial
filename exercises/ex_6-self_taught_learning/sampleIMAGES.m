@@ -7,6 +7,9 @@ load IMAGES;    % load images from disk
 patchsize = 8;  % we'll use 8x8 patches 
 numpatches = 5;
 
+image_width = 512;
+image_height = 512;
+
 % Initialize patches with zeros.  Your code will fill in this matrix--one
 % column per patch, 10000 columns. 
 patches = zeros(patchsize*patchsize, numpatches);
@@ -26,8 +29,8 @@ patches = zeros(patchsize*patchsize, numpatches);
 
 for i=1:numpatches
     image = randi(10);
-    x = randi(512 - patchsize +1);
-    y = randi(512 - patchsize +1);
+    x = randi(image_width - patchsize +1);
+    y = randi(image_height - patchsize +1);
     patches(:,i) = reshape(IMAGES(x:x+patchsize-1,y:y+patchsize-1,image),patchsize*patchsize,1);
 end
 
